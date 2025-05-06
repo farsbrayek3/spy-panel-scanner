@@ -291,7 +291,7 @@ def smtpcheck(line):
                 with lock:
                     print_colored(f"[SMTP] {line} ==> SMTP Login Successful! ({port})", g)
                     with open('Results/smtps_valid.txt', 'a', encoding='utf-8') as f:
-                        f.write(line + '\n')
+                        f.write(host + "|" + str(port) + "|" + user + "|" + password + '\n')
                 success = True
                 break
             except Exception:
@@ -300,12 +300,12 @@ def smtpcheck(line):
             with lock:
                 print_colored(f"[SMTP] {line} ==> SMTP Login Failed!", r)
                 with open('Results/smtps_invalid.txt', 'a', encoding='utf-8') as f:
-                    f.write(line + '\n')
+                    f.write(host + "|" + str(port) + "|" + user + "|" + password + '\n')
     except Exception as e:
         with lock:
             print_colored(f"[SMTP] {line} ==> SMTP Exception: {e}", r)
             with open('Results/smtps_invalid.txt', 'a', encoding='utf-8') as f:
-                f.write(line + '\n')
+                f.write(host + "|" + str(port) + "|" + user + "|" + password + '\n')
 
 def smtp_checker_menu():
     print(Fore.CYAN + "Provide the filename with extracted SMTP lines (e.g., smtps.txt):", end=' ')

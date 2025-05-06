@@ -52,7 +52,7 @@ Mr Spy's Ultimate Panel Scanner is a powerful, fast and fun tool for scanning, e
 - **Webmail:** `http(s)://site:2095|username|password`
 - **WordPress:** `http(s)://site|username|password`
 - **WHM:** `http(s)://site:2086`
-- **SMTP:** `smtp://host:username:password`
+- **SMTP:** `host|port|username|password`
   - Tool will try ports 587, 465, and 25.
 
 ---
