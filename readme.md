@@ -1,6 +1,6 @@
 # Mr Spy's Ultimate Panel Scanner
 
-![kawaii-banner](https://user-images.githubusercontent.com/your-banner-path/banner.png)
+![kawaii-banner](https://i.pinimg.com/1200x/47/14/2e/47142eb7d0e926f8489d55ec2bf07707.jpg)
 
 ## 🕵️‍♂️ Kawaii Mode Activated!
 
@@ -26,33 +26,6 @@ Mr Spy's Ultimate Panel Scanner is a powerful, fast and fun tool for scanning, e
 - **Multi-threaded:** Fast scanning and checking!
 - **Result Files:** Saves valid and invalid credentials in `Results/` directory.
 - **Colorful CLI:** Clear status with color-coded output.
-
----
-
-## 🛠️ Installation
-
-1. **Clone this repo:**
-
-   ```bash
-   git clone https://github.com/yourusername/spy-panel-scanner.git
-   cd spy-panel-scanner
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   > Requirements:
-   >
-   > - Python 3.x
-   > - `requests`, `colorama`, `urllib3`
-
-3. **(Optional) Add more User-Agents:**  
-   Edit or add to `lib/ua.txt` for random UA rotation.
-
----
 
 ## 🚀 Usage
 
@@ -133,6 +106,6 @@ Do **not** use it to access systems or accounts you do not own or have explicit 
 
 ## 💡 Credits
 
-- Built by [YourName or Team]
+- Built by Mr spy
 - ASCII art inspired by the anime community
 - Open Source: [LICENSE](LICENSE)
